@@ -1,6 +1,7 @@
 const search = document.querySelector(".search_input");
 
 search.addEventListener("input", function() {
+  offset = 0;
 const character = search.value;
 
   fetch(`${API_URL}characters?name=${character}&apikey=${PUBLIC_KEY}&ts=${TS}&hash=${HASH}&limit=100&offset=${offset}`, {
