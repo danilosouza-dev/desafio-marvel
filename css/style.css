@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+.logo {
+  width: 140px;
+}
+
+.searchbar{
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 60px;
+  background-color: #E9ECEF;
+  border-radius: 30px;
+  padding: 10px;
+  }
+
+  .search_input{
+  color: #000;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: 0.4s linear;
+  }
+
+  .searchbar:hover > .search_input{
+  padding: 0 10px;
+  width: 450px;
+  caret-color:#e74c3c;
+  transition: 0.4s linear;
+  }
+
+  .searchbar:hover > .search_icon{
+  background: white;
+  color: #e74c3c;
+  }
+  .search_icon{
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:#e74c3c;
+  }
+
+.jumbotron-heading {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 2px;
+  color: #343A40;
+}
+
+.btn-vermais {
+  margin: 60px auto 60px;
+  font-weight: bold;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  line-height: 1.2em;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: left;
+}
+
+.title:hover {
+  color: #e74c3c;
+}
+
+
+.footerCards {
+  padding: 10px 0 0 5px;
+}
+
+.sombraCards {
+  box-shadow: 0 26px 24px -16px rgba(0,0,0,.9);
+  transition: 300ms;
+}
+.sombraCards:hover {
+  transform: translateY(-10px);
+}
+
+.cards {
+  margin: 50px 10px; 
+  width: 12rem;
+}
+
+.author {
+  margin-top: -10px;
+  font-family: 'Roboto', sans-serif;
+}
+.cta-card {
+  font-size: 16px;
+  margin: 10px 0 2px 0;
+  letter-spacing: 1px;
+  color: #e74c3c;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) { 
+  .searchbar:hover > .search_input{
+    width: 100px;
+  }
+ }
+ @media (max-width: 376px) { 
+  .searchbar:hover > .search_input{
+    width: 60px;
+  }
+ }
+
+@media (max-width: 360px) { 
+  .searchbar:hover > .search_input{
+    width: 40px;
+  }
+ }
+
+@media (max-width: 576px) { 
+  .cards {
+    margin: 50px 20px; 
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) { 
+  .cards {
+    margin: 50px 20px; 
+    width: 12rem;
+  }
+ }
+
+@media (min-width: 1200px) { 
+  .cards {
+    margin: 50px 10px; 
+    width: 12rem;
+  }
+ }
