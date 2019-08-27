@@ -1,4 +1,4 @@
-# Desafio Marvel 2B Educação
+# Desafio Marvel
 
 Programa que consome API da Marvel e retorna imagens das HQs, título e nome dos autores.
 
