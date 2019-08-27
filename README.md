@@ -3,7 +3,7 @@
 Programa que consome API da Marvel e retorna imagens das HQs, título e nome dos autores.
 
 
-## Clonando o projeto
+## Clonando projeto
 ``` git clone https://github.com/DaniloSouzaDev/desafio-marvel.git ```
 
 
