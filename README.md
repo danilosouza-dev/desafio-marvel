@@ -1,6 +1,6 @@
 # API Marvel
 
-Utiliza API da Marvel e retorna imagens das HQs, título e nome dos autores.
+Programa que consome API da Marvel e retorna imagens das HQs, título e nome dos autores.
 
 
 ## Clonando o projeto
